@@ -4,9 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "build": "npm install && npm audit fix",
-    "prod": "npm run build && npm start"
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
